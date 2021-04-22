@@ -118,11 +118,13 @@ img {
   text-align: center;
   font-size: 1.8rem;
   color: var(--blanco);
+  padding: 1rem;
 }
-.navegacion__enlace:hover {
-  transform: scale(1.2);
-  transition: transform 1s ease;
+.navegacion__enlace--activo {
+  background-color: var(--blanco);
+  color: var(--negro);
 }
+
 /* ########## BLOG ##########*/
 @media (min-width: 768px) {
   .contenido-principal {
